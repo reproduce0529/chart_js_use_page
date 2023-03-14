@@ -1,0 +1,274 @@
+.jqx-chart-legend-text {
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none;
+}
+
+text + line + g > rect {
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none !important;
+}
+
+text + line + g + g > rect {
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none !important;
+}
+
+text + line +g+ g + g > rect {
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none !important;
+}
+
+#svgChart>rect {
+    width: 12px !important;
+    height: 12px !important;
+    rx: 150;
+    fill: white;
+    stroke: #FE9204;
+    stroke-width: 4px;
+    -moz-box-shadow: -5px -5px 5px #888;
+    -webkit-box-shadow: -5px -5px 5px #888;
+    box-shadow: -5px -5px 5px #888;
+    transform: translateX(-3.5px) translateY(-3.5px);
+
+}
+
+#svgChart>rect+g {
+    display: none;
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+}
+
+#svgChart>rect:hover+g {
+    display: block;
+}
+
+path {
+    stroke: #FE9204;
+}
+
+line {
+    stroke: #ddd;
+}
+
+.jqx-chart-axis-text {
+    font: normal normal normal 14px/27px Noto Sans CJK KR;
+    letter-spacing: -0.56px;
+    color: #888888;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+
+#arrowInnerDiv {
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+}
+
+#arrowOuterDiv{
+
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+}
+/*line + g > path{
+    fill: #FE9204;
+    fill-opacity:0.1;
+} 배경 색 주석처리*/
+
+
+text + line +g+ g + g +.jqx-chart-axis-text{
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none;
+}
+
+text + line +g+ g + g +text + .jqx-chart-axis-text{
+    display: none !important;
+    visibility:hidden !important;
+    z-index: -9999 !important;
+    opacity: 0 !important;
+    width: 0px !important;
+    height: 0px !important;
+    overflow: hidden !important;
+    display: none;
+}
+
+#chartContainer2> table >tbody >tr> td> .chartContainer> #svgChart defs + g text{
+    display: block !important;
+    color: #ccc !important;
+
+}
+
+#chartContainer2> table >tbody >tr> td> .chartContainer> #svgChart defs + g > g > rect{
+    fill: #5E91FC;
+    stroke: #5E91FC;
+}
+#svgChart > defs + g > rect{
+    stroke: none;
+}
+
+#chartContainer2> table >tbody >tr> td> .chartContainer> #svgChart defs + g > g > rect{
+    fill: #5E91FC;
+    stroke: #5E91FC;
+}
+
+#chartContainer2> table >tbody >tr> td> .chartContainer> #svgChart defs + g >.jqx-chart-axis-text-light{
+    display: none !important;
+}
+#svgChart > g > g:nth-child(20) > rect{
+    display: none;
+}
+#svgChart > g > g{
+    color: #888;
+}
+#svgChart > g > line:nth-child(53){
+    display: block;
+    width: 0;
+    height: 240px;
+}
+
+
+
+/*아래는 각 바들의 색상 수정 코드입니다. 순서별로 웹 상 왼쪽부터*/
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(1){
+    fill: #67B7DC !important;
+    stroke: #67B7DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(2){
+    fill: #6794DC !important;
+    stroke: #6794DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(3){
+    fill: #6771DC !important;
+    stroke: #6771DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(4){
+    fill: #8067DC !important;
+    stroke: #8067DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(5){
+    fill: #A367DC !important;
+    stroke: #A367DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(6){
+    fill: #C767DC !important;
+    stroke: #C767DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(7){
+    fill: #8067DC !important;
+    stroke: #8067DC !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(8){
+    fill:#BF85D8!important;
+    stroke: #BF85D8 !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(9){
+    fill: #C965BF !important;
+    stroke: #C965BF !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(10){
+    fill: #E671B3 !important;
+    stroke: #E671B3 !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(11){
+    fill: #F35289 !important;
+    stroke: #F35289 !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(12){
+    fill: #FF8AB2 !important;
+    stroke: #FF8AB2 !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(13){
+    fill:#FF7D7D !important;
+    stroke: #FF7D7D !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(14){
+    fill:#F65C5C !important;
+    stroke: #F65C5C !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(15){
+    fill: #FF6D40 !important;
+    stroke: #FF6D40 !important;
+}
+
+#svgChart > g > g:nth-child(56) > rect:nth-child(16){
+    fill: #E93C18!important;
+    stroke: #E93C18 !important;
+}
+#svgChart > g > g:nth-child(56) > rect:nth-child(17){
+    fill: blue !important;
+    stroke: blue !important;
+}
+
+
+#svgChart > g > g:nth-child(21) > rect{
+    display: none;
+}
+
+body{
+    text-align : center;
+    background-color: #6794DC;
+}
+
+#chartContainer1, #chartContainer2{
+    margin : auto;
+
+}
